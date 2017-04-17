@@ -1,0 +1,16 @@
+[package]
+name = "sha-rs"
+version = "0.1.0"
+authors = ["Matthew Kilgore <mattkilgore12@gmail.com>"]
+
+[lib]
+name = "sha"
+path = "src/lib.rs"
+
+[[bin]]
+name = "sha-rs"
+path = "src/bin/main.rs"
+
+[dependencies]
+byteorder = "1.0.0"
+
